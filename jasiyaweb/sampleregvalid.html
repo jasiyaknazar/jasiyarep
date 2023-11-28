@@ -1,0 +1,56 @@
+<html>
+<head>
+<title>Registration Form</title>
+<style>
+h1{text-align="center"}
+</style>
+ <script src="reg.js"></script>
+</head>
+<body bgcolor="lightblue" >
+<center>
+<form name="myForm" style="border:3px solid black;width:500px;" onsubmit="return validateForm();">
+<h1>Registration Form</h1>
+<label>FirstName :</label>
+<input type="text"placeholder="Enter your First Name"/><br/><br/>
+<label>LastName : </label>
+<input type="text"placeholder="Enter your econd Name"/><br/><br/>
+<label>Address : </label>
+<textarea type="text" placeholder="Enter your Address here" name="address" id="addres" rows="" cols="33">
+</textarea><br/><br/>
+
+<label id="dobi">D O B:</label>
+  <input type="date" id="dob" name="dobi"><br><br>
+  
+<label  id="mob">Contact : </label>
+<input type="text" placeholder="Enter Mobile Number here"><br/>
+
+<label id="em">Email : </label>
+<input type="text"  placeholder="Enter your Email here"/><br><br>
+
+<label>Gender : </label>
+<div class="gender"> 
+<input type="radio" name="gender" value="Male">Male
+<input type="radio" name="gender" value="female">Female
+<input type="radio"  name="gender" value="other">Other<br><br>
+</div>
+
+<label>Course:</label>
+
+<select name="course">
+<option value="none" selected >Select an Option</option>
+<option value="MCA">MCA</option><br><br>
+<option value="MBA">MBA</option><br><br>
+<option value="Btech">Btech</option><br><br>
+</select><br><br>
+
+<button type="submit">Submit</button>
+&nbsp; &nbsp; &nbsp; <button type="reset" value="Reset">Reset</button>
+</form>
+</center>
+</body>
+</html>
+
+
+
+
+
