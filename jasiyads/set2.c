@@ -92,16 +92,16 @@ void processChoice(int choice){
        }
       }
 
-void printSetOperationResult(int arr[])
-{
+   void printSetOperationResult(int arr[])
+ {
  printf("\nUnion Operation (bit string):");
  printSet(arr,superSetSize);
  printf("\nOperation Result:");
  printBitStringAsSet(arr);
-}
+ }
 
-void printBitStringAsSet(int arr[])
-{
+ void printBitStringAsSet(int arr[])
+ {
  int isFirstOutputDoneFlag=0;
  int i=0;
  printf("{");
@@ -118,10 +118,10 @@ void printBitStringAsSet(int arr[])
  }
  printf("}");
 }
-void setUnion(int arr1[],int arr2[])
+ void setUnion(int arr1[],int arr2[])
 {
  int i;
-for(i=0;i<superSetSize;i++){
+ for(i=0;i<superSetSize;i++){
 	bitStringUnion[i]=arr1[i]|arr2[i];
     }
 }
